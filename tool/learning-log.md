@@ -7,7 +7,7 @@
 ---
 
 ### 10/19/2024:
-[Replit for Kaboom](https://replit.com/@replit/Kaboom#code/main.ts) ---> using this as a reference on how to start my code for Kaboom (basically a quicker/easiest version to start using Kaboom
+[Replit for Kaboom](https://replit.com/@replit/Kaboom#code/main.ts) ---> using this as a reference on how to start my code for Kaboom (basically a quicker/easiest version to start using Kaboom, using this as an example to help me understand the code a bit better. 
 
 After looking at the replit, based on what I can refer to
 #### Notes
