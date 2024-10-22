@@ -24,10 +24,19 @@
         <script>
             // JS
             // initialize kaboom context
-            kaboom();
+            kaboom()
 
             // load assets
-            loadSprite("duck", )
+            loadSprite("duck", "sprites/duck.png")
+
+            // add my duck on my screen
+            add([
+	        // list of components
+	        sprite("duck"),
+	        pos(10, 20),
+	        area(),
+            scale(1)
+            ])
 
         </script>
     </body>
