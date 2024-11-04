@@ -73,6 +73,18 @@ Another one was getting the image that I wanted, was a duck. Since I was usually
 * Try to slowly understand how to use the computer, as I always use my ipad
 * Do a bit more research and a bit more tinker to expand my understanding
 
+---
+
+### 11/4/24: 
+[Kaboom Notes](https://kaboomjs.com/doc/intro) after trying out the code with trails and error from the examples, I realized there was notes in the official website that I didn't know about. 
+
+#### Notes
+* "onKeyPress()" - when the user press on a specific key makes it run
+* ".jump()" - make the character jump
+* "body()" - gives it a physical body, making it fall due to gravity and ability to jump ---> slow fall (don't think I need that)
+
+  
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
