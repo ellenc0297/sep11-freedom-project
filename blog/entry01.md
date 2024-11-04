@@ -4,6 +4,9 @@
 ### Content
 The topic I decided to work on is "collecting foods," with my partner Qilin, and to make that game work and based on how we wanted to be will be, I will be using my tools to help make the 2d dimesion , Kaboom. The others who will be doing RNG based with cats, from Katee and Xue they will do the other part of the project (part 2), called "cat gachapon" using what they have from collecting the food, they can roll from the "cat gachapon" to get what they got based on what it offered to them and it will be random from different rarity. 
 
+### Games
+My game is about when the player or the user goes in the game, their character will collect fishs like the snake game and when they die they will have that amount of fish they collected. After they finished with that they will go to part B of the game that others made
+
 ### Tool
 The tool that I decided to use is [Kaboom](https://kaboomjs.com/) to help create part A with Qilin, while Katee and Xue will be using [P5Play](https://p5play.org/) to help create part B of the project. When I was learning "Kaboom", I went to Youtube to find some information about Kaboom, only to find out most of them were "what to do in kaboom" and etc. So, I decided to go to the official webiste to learn it from [Here](https://kaboomjs.com/doc/intro) only to use this to help me tinker my tools (and code snippet from there) and learn from that. Using the the website, I annotated from there to help expand my understanding of Kaboom. 
 
