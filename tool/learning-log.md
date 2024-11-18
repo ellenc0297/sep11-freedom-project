@@ -84,7 +84,26 @@ Another one was getting the image that I wanted, was a duck. Since I was usually
 * "body()" - gives it a physical body, making it fall due to gravity and ability to jump ---> slow fall (don't think I need that above, but adding notes)
 * "move()" - makes it move towards a direction infinitely, where u want it to go
 * "anchor()" - defines the origin point of positioning, same as "pos()" but instead of top left we can do any pos u want
-* 
+
+---
+
+### 11/18/24:
+[Kaboom Notes](https://kaboomjs.com/doc/intro) using this for my notes up there to continue futher my understanding of kaboom
+
+#### Video
+[Kaboom Startup](https://youtu.be/iRXI6ThRJvM?si=I_ZWxmmtyYsf7bNC) It helped me understand how to setup my kaboom and help learn other component of codes
+* ```console.log(player)``` can let us see what player can do based on what you put but more
+* ```.solid()``` the player won't fall through the screen, it used to help it from doing that ---> it can go on top of items like an actual soild
+
+The rest of the video it was just him using animation and other tools, which I'm not learning. But if you continue on towards the end there was more Kaboom stuff
+* ```.origin()``` where the start position going to be
+* ```.keyDown()``` where the user can press on the key to what they want to go ---> left and right
+* ```.keyPress()``` where the user can jump ---> space
+
+#### Tinker
+
+
+
 
   
 
