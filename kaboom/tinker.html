@@ -30,7 +30,7 @@
             loadSprite("duck", "sprites/duck.png")
 
             // add my duck on my screen
-            const duck = add([
+            const q = add([
 	        // list of components
 	        sprite("duck"),
 	        pos(10, 20),
@@ -38,16 +38,16 @@
             scale(1)
             ])
 
-	keyDown('right', () => {
+	q.keyDown('right', () => {
 		duck.move(100, 0)
 	})
-	keyDown('left', () => {
+	q.keyDown('left', () => {
 		duck.move(-100, 0)
 	})
 
 		
 	// .jump() when "space" key is pressed
-	keyPress('space', () => {
+	.keyPress('space', () => {
    	 	duck.jump(350)
 	})
 
