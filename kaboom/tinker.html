@@ -35,19 +35,19 @@
 	        sprite("duck"),
 	        pos(10, 20),
 	        area(),
-            scale(1)
-		    duck.keyDown('right', () => {
-		duck.move(100, 0)
-	})
-	duck.keyDown('left', () => {
-		duck.move(-100, 0)
-	})
+            scale(1),
 
-		
-	// .jump() when "space" key is pressed
-	.keyPress('space', () => {
-   	 	duck.jump(350)
-	})
+		        .keyDown('right', () => {
+		        duck.move(100, 0)
+	                })
+	            .keyDown('left', () => {
+		        duck.move(-100, 0)
+	                })
+
+	            // .jump() when "space" key is pressed
+	            .keyPress('space', () => {
+   	 	        duck.jump(350)
+	                })
             ])
 
         </script>
