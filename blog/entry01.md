@@ -1,11 +1,12 @@
 # Entry 1
 ##### 10/28/24
 ---
-### Content
-The topic I decided to work on is "collecting foods," with my partner Qilin, and to make that game work and based on how we wanted to be will be, I will be using my tools to help make the 2d dimesion , Kaboom. The others who will be doing RNG based with cats, from Katee and Xue they will do the other part of the project (part 2), called "cat gachapon" using what they have from collecting the food, they can roll from the "cat gachapon" to get what they got based on what it offered to them and it will be random from different rarity. 
-
 ### Games
-My game is about when the player or the user goes in the game, their character will collect fishs like the snake game and when they die they will have that amount of fish they collected. After they finished with that they will go to part B of the game that others made
+For this year's Freedom Project, I decided to work with my friends by making a separate game by spending cat food to let the user obtain the cat rarity based on what they got due to chances, and turn it into two parts and with two teams, then when we finished the game at the end of the year, we can combine them both together at the end of our Freedom Project. I am doing Part A of the game with Qilin, while Part B Xue and Katee will be making their part of the game. 
+
+The section of the game I will be doing is **Part A** which is the "collecting foods," and to make the game work and based on how we wanted to be will be, I will be using my tools to help make the 2d, Kaboom. But to do that we need to make sure that the player can control the cat and make them move around in a 2D game (that looked like the snake game), the user will then let the cat move from one place to another to collect their foods, using their keyboard keys to help them collect as many cat foods as possible, with the given time limit. 
+
+The others parts of the game called "cat gachapon", which is **Part B** which it will be based on RNG based with cats, but the user need to go to Part A of the game in order to do this or they can't do it. If the user did, the user can use their "cat food" in here to try to get the cats they got. But there will be a gunball looking machine, that rolls out a cat once. Based on the amount needed to roll once to get a cat based on chances. But there will three rarity based on what you got, (Rare, Super Rare, and Super Super Rare) sometimes the user can get the same one they had already obtained, some will be easy to get some will be hard to get. 
 
 ### Tool
 The tool that I decided to use is [Kaboom](https://kaboomjs.com/) to help create part A with Qilin, while Katee and Xue will be using [P5Play](https://p5play.org/) to help create part B of the project. When I was learning "Kaboom", I went to Youtube to find some information about Kaboom, only to find out most of them were "what to do in kaboom" and etc. So, I decided to go to the official webiste to learn it from [Here](https://kaboomjs.com/doc/intro) only to use this to help me tinker my tools (and code snippet from there) and learn from that. Using the the website, I annotated from there to help expand my understanding of Kaboom. 
