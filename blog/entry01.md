@@ -8,11 +8,39 @@ The section of the game I will be doing is **Part A** which is the "collecting f
 
 The others parts of the game called "cat gachapon", which is **Part B** which it will be based on RNG based with cats, but the user need to go to Part A of the game in order to do this or they can't do it. If the user did, the user can use their "cat food" in here to try to get the cats they got. But there will be a gunball looking machine, that rolls out a cat once. Based on the amount needed to roll once to get a cat based on chances. But there will three rarity based on what you got, (Rare, Super Rare, and Super Super Rare) sometimes the user can get the same one they had already obtained, some will be easy to get some will be hard to get. 
 
-### Tool
+### Tool we use
 The tool that I decided to use is [Kaboom](https://kaboomjs.com/) to help create part A with Qilin, while Katee and Xue will be using [P5Play](https://p5play.org/) to help create part B of the project. When I was learning "Kaboom", I went to Youtube to find some information about Kaboom, only to find out most of them were "what to do in kaboom" and etc. So, I decided to go to the official webiste to learn it from [Here](https://kaboomjs.com/doc/intro) only to use this to help me tinker my tools (and code snippet from there) and learn from that. Using the the website, I annotated from there to help expand my understanding of Kaboom. 
 
+### Kaboom
+Since, it been a while that the last time I created a little mini games back when I was doing "coding" all the way back in elementary school. I thought that some of the components looks familiar because I had used them before back, when I was doing "Code.org" like the ```pos()``` and I think ```sprite()``` if I remember correctly, but I think these knowledge will come in handy as I experience these types of components in the past. 
+
+[Intro to Kaboom](https://kaboomjs.com/doc/intro) ---> I tinker using this as a reference on how to start my code for Kaboom, I learned how to use the img that I wanted using ```loadSprite()``` to make the sprite load up. 
+
+I learned these as I was as I was tinkering my tools, that could be useful in my project
+* ```sprite()``` - makes an image of the enivornment in 2D, ex: with "bean" sprite we can just loaded in loadSprite()
+* ```add[()]``` - is to add it with the list of the components
+* ```pos()``` - position by using the x and y coordinates
+* ```area()``` - adds a collider to it
+* ```scale()``` - the size of what you wanted to be of your sprite
+Using my understanding based on what I know from what I saw from the information given to me, these are my notes to help me understand and help me tinker what was below
+
+```js
+            // load assets
+            loadSprite("duck", "sprites/duck.png")
+
+            // add my duck on my screen
+            add([
+	        // list of components
+	        sprite("duck"),
+	        pos(10, 20),
+	        area(),
+            scale(1)
+            ])
+```
+I created an variable that help me contain my components, which is ```add([])``` it work like ```var``` variable that we usually learn in Javascript. I used the ```pos()``` it help coordinate the position of my spirte. I used ```scale()``` to help change the size of my sprite.
+
 ### Engineering Design Process 
-Now, I am currently in the first stage of the my engineering design process, where my main goal is to try to do some Brainstroming and Planning to make sure we all agree to what the project would look like to our satifastication. The next stage is to research with my teamates as we collabrate with our project together, but also talk to try talk to my peers and those around me to discuss the issue and gain their input and knowledge.
+I think am in steps where I am doing some **Brainstroming** and **Researching** to make sure we all agree to what the project would look like to our satifastication while doing our research. On how some of the elements work using trails and error, while tinkering. I'm also in the process to brainstorm what I need to add in my game, while researching what needed to be tinker in there.
 
 ### Skills
 Some skills that I’m praticing from while working on this blog are **time management**, **collabration**, and **communication**.
