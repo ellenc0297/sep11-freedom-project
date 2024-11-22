@@ -38,9 +38,17 @@
             scale(1)
             ])
 
+	keyDown('right', () => {
+		duck.move(100, 0)
+	})
+	keyDown('left', () => {
+		duck.move(-100, 0)
+	})
+
+		
 	// .jump() when "space" key is pressed
-	keyPress("space", () => {
-   	 duck.jump(350)
+	keyPress('space', () => {
+   	 	duck.jump(350)
 	})
 
         </script>
