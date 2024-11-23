@@ -115,10 +115,10 @@ const duck = add([
    	 	        duck.move(-500, 5)
 	                })
         onKeyPress("up", () => {
-   	 	        duck.move(-500, -3500)
+   	 	        duck.move(-0, -3500)
 	                })
         onKeyPress("down", () => {
-   	 	        duck.move(+500, 3500)
+   	 	        duck.move(+0, 3500)
 	                })
 ```
 When I was tinkering my code for I changed some of the code from the pervious time when I tinker, I added a ```const``` in my code because I needed a varaible for as "duck" so that the ```const``` can be used for the bottom, for ```onKeyPress``` can help me move my sprite. I made the sprite ```body()``` so it can be soild and respond to gravity.
