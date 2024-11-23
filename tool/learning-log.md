@@ -81,7 +81,7 @@ Another one was getting the image that I wanted, was a duck. Since I was usually
 #### Notes
 * "onKeyPress()" - when the user press on a specific key makes it run 
 * ".jump()" - make the character jump
-* "body()" - gives it a physical body, making it fall due to gravity and ability to jump ---> slow fall (don't think I need that above, but adding notes)
+* "body()" - gives it a physical body, making it fall due to gravity and ability to jump ---> slow fall 
 * "move()" - makes it move towards a direction infinitely, where u want it to go
 * "anchor()" - defines the origin point of positioning, same as "pos()" but instead of top left we can do any pos u want
 
@@ -92,19 +92,51 @@ Another one was getting the image that I wanted, was a duck. Since I was usually
 
 #### Video
 [Kaboom Startup](https://youtu.be/iRXI6ThRJvM?si=I_ZWxmmtyYsf7bNC) It helped me understand how to setup my kaboom and help learn other component of codes
-* ```console.log(player)``` can let us see what player can do based on what you put but more
 * ```.solid()``` the player won't fall through the screen, it used to help it from doing that ---> it can go on top of items like an actual soild
 
 The rest of the video it was just him using animation and other tools, which I'm not learning. But if you continue on towards the end there was more Kaboom stuff
-* ```.origin()``` where the start position going to be
-* ```.keyDown()``` where the user can press on the key to what they want to go ---> left and right
-* ```.keyPress()``` where the user can jump ---> space
+* ```.origin()``` where the start position going to be ---> could be left, center, and etc
+* ```.keyPress()``` where the user can press on the key based on where they want to go ---> space, left, right and etc
 
 #### Tinker
+```js
+const duck = add([
+	        // list of components
+	        sprite("duck"),
+	        pos(10, 20),
+	        area(),
+            body()
+        ])
 
+        onKeyPress("right", () => {
+   	 	        duck.move(500, 5)
+	                })
+        onKeyPress("left", () => {
+   	 	        duck.move(-500, 5)
+	                })
+        onKeyPress("up", () => {
+   	 	        duck.move(-500, -3500)
+	                })
+        onKeyPress("down", () => {
+   	 	        duck.move(+500, 3500)
+	                })
+```
+When I was tinkering my code for I changed some of the code from the pervious time when I tinker, I added a ```const``` in my code because I needed a varaible for as "duck" so that the ```const``` can be used for the bottom, for ```onKeyPress``` can help me move my sprite. I made the sprite ```body()``` so it can be soild and respond to gravity.
 
+I was struggling to make the spirite move as it kept saying error even though I did it correctly, I got pissed and I asked for help. But I realized it was glitch as I type the same code again. 
 
+```js
+ // setGravity(1600)
+        // // .jump() when "space" key is pressed
+        // onKeyPress("space", () => {
+```
+This code when I was trying out help make it like "Flappy Bird" that continuious jump everytime the user press the spacebar. I was using this when I was struggling to do the moving the sprite and took the examples from the "Kaboom"
 
+### Goals
+* Try not to procastinate too much ---> kept forgetting that I needed to learn my tools
+* Is ok to stress over things as it could be a glitch ---> I got pissed off and kept fixing it even tho is correct, but it said it was wrong. But I realized it was a glitch for some reason
+* Try to slowly understand how to use the computer, as I always use my ipad 
+* Do a bit more research and a bit more tinker to expand my understanding
   
 
 <!--
