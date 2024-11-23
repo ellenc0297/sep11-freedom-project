@@ -35,21 +35,25 @@
 	        sprite("duck"),
 	        pos(10, 20),
 	        area(),
-            scale(1),
-
-		        .keyDown('right', () => {
-		        duck.move(100, 0)
+            body()
+        ])
+        // setGravity(1600)
+        // // .jump() when "space" key is pressed
+        // onKeyPress("space", () => {
+   	 	//         duck.jump()
+	    //             })
+        onKeyPress("right", () => {
+   	 	        duck.move(500, 5)
 	                })
-	            .keyDown('left', () => {
-		        duck.move(-100, 0)
+        onKeyPress("left", () => {
+   	 	        duck.move(-500, 5)
 	                })
-
-	            // .jump() when "space" key is pressed
-	            .keyPress('space', () => {
-   	 	        duck.jump(350)
+        onKeyPress("up", () => {
+   	 	        duck.move(-500, -3500)
 	                })
-            ])
-
+        onKeyPress("down", () => {
+   	 	        duck.move(+500, 3500)
+	                })
         </script>
     </body>
 </html>
