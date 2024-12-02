@@ -79,7 +79,7 @@ Another one was getting the image that I wanted, was a duck. Since I was usually
 [Kaboom Notes](https://kaboomjs.com/doc/intro) after trying out the code with trails and error from the examples, I realized there was notes in the official website that I didn't know about. 
 
 #### Notes
-* "onKeyPress()" - when the user press on a specific key makes it run 
+* "onKeyPress()" - when the user press on a specific key makes it run continuously
 * ".jump()" - make the character jump
 * "body()" - gives it a physical body, making it fall due to gravity and ability to jump ---> slow fall 
 * "move()" - makes it move towards a direction infinitely, where u want it to go
