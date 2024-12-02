@@ -96,7 +96,7 @@ Another one was getting the image that I wanted, was a duck. Since I was usually
 
 The rest of the video it was just him using animation and other tools, which I'm not learning. But if you continue on towards the end there was more Kaboom stuff
 * ```.origin()``` where the start position going to be ---> could be left, center, and etc
-* ```.keyPress()``` where the user can press on the key based on where they want to go ---> space, left, right and etc
+* ```.keyPress()``` where the user can press on the key based on where they want to go to an direction ---> space, left, right and etc
 
 #### Tinker
 ```js
