@@ -37,13 +37,16 @@
 	        area(),
             body()
         ])
+
         // setGravity(1600)
         // // .jump() when "space" key is pressed
         // onKeyPress("space", () => {
    	 	//         duck.jump()
 	    //             })
+        
         onKeyPress("right", () => {
    	 	        duck.move(100, 5)
+
 	                })
         onKeyPress("left", () => {
    	 	        duck.move(-100, 5)
@@ -54,7 +57,15 @@
         onKeyPress("down", () => {
    	 	        duck.move(+0, 3500)
 	                })
-})
+
+        // keep track of score
+        let score = 0;
+        // display
+        const scoreLabel = add([
+            text(score),
+            pos(24, 24),
+            ]);
+
         </script>
     </body>
 </html>
