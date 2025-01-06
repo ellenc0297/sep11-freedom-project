@@ -196,6 +196,11 @@ The third one was how the duck doesn't move how I wanted to be, I somehow made i
 * Do a bit more research and a bit more tinker to expand my understanding
 
 ### 12/28/24
+[Kaboom Notes](https://kaboomjs.com/doc/intro) after trying out the code with trails and error from the examples, I realized there was notes in the official website that I didn't know about.
+
+As my progress continue from my goal that I made in my blog only leads to some as failure as there was **challenges** on how it leads to failure as it doesn't work and won't pop out the way that I wanted giving me error everytime I do it, so I decided to do it next time when I come back from school and ask further, but I rememeber something I didn't make in my goal for my winter break progress was to try to make a score. It still in progress as I need to make more adjestment on the code I was trying to make how I want it to be like. As I was trying to make the score I realized I need more image so it can be workable for it to actually work. (when the player touch the food the score will go up)
+
+Tinker of my code: 
 ``` js
             // load assets
             loadSprite("duck", "sprites/duck.png")
@@ -237,6 +242,11 @@ The third one was how the duck doesn't move how I wanted to be, I somehow made i
             pos(24, 24),
             ]);
 ```
+#### Goals
+* Try not to procastinate too much ---> kept forgetting that I needed to learn my tools 
+* Is ok to stress over things as it could be a glitch ---> I got pissed off and kept fixing it even tho is correct, but it said it was wrong. But I realized it was a glitch for some reason
+* Try to slowly understand how to use the computer, as I always use my ipad ---> the longer I use it the more I understand some of the shortcut on the computer
+* Do a bit more research and a bit more tinker to expand my understanding ---> without much struggles
 
 <!--
 * Links you used today (websites, videos, etc)
