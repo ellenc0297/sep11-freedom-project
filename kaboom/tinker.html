@@ -43,19 +43,21 @@
         // onKeyPress("space", () => {
    	 	//         duck.jump()
 	    //             })
-        
-        onKeyPress("right", () => {
-   	 	        duck.move(100, 5)
 
+        onKeyDown("right", () => {
+   	 	        duck.move(100, 5)
 	                })
-        onKeyPress("left", () => {
-   	 	        duck.move(-100, 5)
+
+        onKeyDown("left", () => {
+   	 	        duck.move(-100, -10)
 	                })
-        onKeyPress("up", () => {
-   	 	        duck.move(-0, -3500)
+
+        onKeyDown("up", () => {
+   	 	        duck.move(0, -100)
 	                })
-        onKeyPress("down", () => {
-   	 	        duck.move(+0, 3500)
+
+        onKeyDown("down", () => {
+   	 	        duck.move(0, 100)
 	                })
 
         // keep track of score
