@@ -63,9 +63,9 @@ To make this fully work I need to have another sprite that when the sprite move 
             pos(24, 24),
             ]);
 ```
-This was what I did in during the break and change some of the code to make it more accessible and changed the key to make it continuously move instead of just keep on clicking on it 
+This was what I did in during the break and change some of the code to make it more accessible and changed the key to make it continuously move instead of just keep on clicking on it, so that was the improvement I did
 
-### Plan to do next
+### Plan to do next?!
 During the *Winter Break* I wanted to improve more from my progress because it looks like I didn't do much based on what I see, making the sprite load in and make it move using key button. So now that the break is over I was thinking to add more of...
 - Learn how to do set a timer, since my groupmate agree to add timer so the user doesn't infitine collect the cat food and stop when they feel like stopping, so if I learn how to do that they will get how much they have in there inventory.
 - Other stuff to make our project look good --> draw more to make it look more creative?
