@@ -69,6 +69,7 @@ This was what I did in during the break and change some of the code to make it m
 During the *Winter Break* I wanted to improve more from my progress because it looks like I didn't do much based on what I see, making the sprite load in and make it move using key button. So now that the break is over I was thinking to add more of...
 - Learn how to do set a timer, since my groupmate agree to add timer so the user doesn't infitine collect the cat food and stop when they feel like stopping, so if I learn how to do that they will get how much they have in there inventory.
 - Other stuff to make our project look good --> draw more to make it look more creative?
+- more ideas I can think of during the process of learning more of my tool
 
 ## Engineering Design Process
 I am currently on the stage of on **Improve**, **Research** and **Test**, I believe that I'm still on that stage to do more stuff from my tinkering process because that is not enough to make any progress on our project for the freedom project. By doing that I need to research more on *Kaboom* so I can help my groupmates, Qilin. So, I can be able to look through my tinkering log to help my groupmate on the project and have the code ready to be type in. Without that part of the process it can lead to failure and confusion on the project. At the same time, testing my code to see if it work and move the way that I wanted to be so I can use it the way that I like it, so I can put it on my freedom project. 
