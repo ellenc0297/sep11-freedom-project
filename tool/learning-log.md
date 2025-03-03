@@ -200,7 +200,7 @@ The third one was how the duck doesn't move how I wanted to be, I somehow made i
 
 As my progress continue from my goal that I made in my blog only leads to some as failure as there was **challenges** on how it leads to failure as it doesn't work and won't pop out the way that I wanted giving me error everytime I do it, so I decided to do it next time when I come back from school and ask further, but I rememeber something I didn't make in my goal for my winter break progress was to try to make a score. It still in progress as I need to make more adjestment on the code I was trying to make how I want it to be like. As I was trying to make the score I realized I need more image so it can be workable for it to actually work. (when the player touch the food the score will go up)
 
-Tinker of my code: 
+Tinker of my code:
 ``` js
             // load assets
             loadSprite("duck", "sprites/duck.png")
@@ -243,7 +243,7 @@ Tinker of my code:
             ]);
 ```
 #### Goals
-* Try not to procastinate too much ---> kept forgetting that I needed to learn my tools 
+* Try not to procastinate too much ---> kept forgetting that I needed to learn my tools
 * Is ok to stress over things as it could be a glitch ---> I got pissed off and kept fixing it even tho is correct, but it said it was wrong. But I realized it was a glitch for some reason
 * Try to slowly understand how to use the computer, as I always use my ipad ---> the longer I use it the more I understand some of the shortcut on the computer
 * Do a bit more research and a bit more tinker to expand my understanding ---> without much struggles
@@ -251,7 +251,7 @@ Tinker of my code:
 ### 1/12/25
 [Kaboom Notes](https://kaboomjs.com/doc/intro) after trying out the code with trails and error from the examples, I realized there was notes in the official website that I didn't know about.
 
-As my progress continue from my goals that I made in my blog only leads to some as failure as there was **challenges** on how it leads to failure as it doesn't work and won't pop out the way that I wanted giving me error everytime I do it, so I decided to do it next time when I come back from school and ask further, so I asked my friends about how to make a the key continuously without having to press it over and over. I realized my mistake was that I type the function wrong and that's why it wasn't moving. So my next step of my progress is to try to make a timer for the game to make it actually work. 
+As my progress continue from my goals that I made in my blog only leads to some as failure as there was **challenges** on how it leads to failure as it doesn't work and won't pop out the way that I wanted giving me error everytime I do it, so I decided to do it next time when I come back from school and ask further, so I asked my friends about how to make a the key continuously without having to press it over and over. I realized my mistake was that I type the function wrong and that's why it wasn't moving. So my next step of my progress is to try to make a timer for the game to make it actually work.
 
 ```js
  kaboom()
@@ -299,10 +299,84 @@ As my progress continue from my goals that I made in my blog only leads to some 
             ]);
 ```
 #### Goals
-* Try not to procastinate too much ---> kept forgetting that I needed to learn my tools 
+* Try not to procastinate too much ---> kept forgetting that I needed to learn my tools
 * Is ok to stress over things as it could be a glitch ---> I got pissed off and kept fixing it even tho is correct, but it said it was wrong. But I realized it was a glitch for some reason
 * Try to slowly understand how to use the computer, as I always use my ipad ---> the longer I use it the more I understand some of the shortcut on the computer
 * Do a bit more research and a bit more tinker to expand my understanding ---> without much struggles
+
+### 3/2/25
+[Kaboom Notes](https://kaboomjs.com/doc/intro) after trying out the code with trails and error from the examples, I realized there was notes in the official website that I didn't know about.
+
+As I continue my progress to tinker from my code and pratice more on how to use kaboom from my blog goal only to lead to my groupmate don't need it anymore, and we are basically almost finished with our game other than the game's details like the start menu. Unless I ask more from my groupmate to ask if they need any help with coding or anything else to our game to make it more prettier. But for now I just added a sprite and try to make it that it stay still, but right now I don't know what to put to make it stay in one place, so I need to do more research on it or I ask my peer or my partner.
+
+```js
+
+kaboom()
+
+            // load assets
+            loadSprite("duck", "sprites/duck.png")
+
+            // add my duck on my screen
+            const duck = add([
+	        // list of components
+	        sprite("duck"),
+	        pos(10, 20),
+	        area(),
+            body()
+        ])
+
+        loadSprite("froggie", "sprites/frog.jpg")
+
+            // add my duck on my screen
+            const froggie = add([
+	        // list of components
+	        sprite("froggie"),
+	        pos(80, 40),
+	        area(),
+            body()
+
+        ])
+
+        // setGravity(1600)
+        // // .jump() when "space" key is pressed
+        // onKeyPress("space", () => {
+   	 	//         duck.jump()
+	    //             })
+
+        onKeyDown("right", () => {
+   	 	        duck.move(100, 5)
+	                })
+
+        onKeyDown("left", () => {
+   	 	        duck.move(-100, -10)
+	                })
+
+        onKeyDown("up", () => {
+   	 	        duck.move(0, -100)
+	                })
+
+        onKeyDown("down", () => {
+   	 	        duck.move(0, 100)
+	                })
+
+        // keep track of score
+        let score = 0;
+        // display
+        const scoreLabel = add([
+            text(score),
+            pos(24, 24),
+            ]);
+
+        </script>
+    </body>
+</html>
+
+```
+#### Goals
+* Try not to procastinate too much ---> kept forgetting that I needed to learn my tools most of the time
+* Is ok to stress over things as it could be a glitch ---> I got pissed off and kept fixing it even tho is correct, but it said it was wrong. But I realized it was a glitch for some reason or I put the wrong code in
+* Try to slowly understand how to use the computer, as I always use my ipad ---> the longer I use it the more I understand some of the shortcut on the computer
+* Do a bit more research and a bit more tinker to expand my understanding ---> without much struggles so the codes doesn't stop working because of spelling and etc. 
 
 <!--
 * Links you used today (websites, videos, etc)
