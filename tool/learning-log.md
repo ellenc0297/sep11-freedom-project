@@ -376,7 +376,94 @@ kaboom()
 * Try not to procastinate too much ---> kept forgetting that I needed to learn my tools most of the time
 * Is ok to stress over things as it could be a glitch ---> I got pissed off and kept fixing it even tho is correct, but it said it was wrong. But I realized it was a glitch for some reason or I put the wrong code in
 * Try to slowly understand how to use the computer, as I always use my ipad ---> the longer I use it the more I understand some of the shortcut on the computer
-* Do a bit more research and a bit more tinker to expand my understanding ---> without much struggles so the codes doesn't stop working because of spelling and etc. 
+* Do a bit more research and a bit more tinker to expand my understanding ---> without much struggles so the codes doesn't stop working because of spelling and etc.
+
+### 3/9/25
+[Kaboom Notes](https://kaboomjs.com/doc/intro) after trying out the code with trails and error from the examples, I realized there was notes in the official website that I didn't know about.
+
+Today for my progress there isn't much as my partner kinda finished what she needed to do help finish our freedom project of doing "cat foods." From my last progress I was able to make the duck move how I wanted to be and added a sprite to make it as thing to slow down the player from getting more foods.
+* I think is important for me to do that as it can help benefit my partner ideas on what to add in the game
+
+Then during that time, my teammate was communicating more to my part B group as gather idea on what to add next to our project because we are kinda starting to add more deeper stuff to our game like adding more of the art we drew to the game and other stuff we wanted to add in our game.
+
+* Add drawing to our game = more cats to the Part B of our game where **Xue and Katee** is working
+* Add some background image in our *Cat food* so that t doesn't look plain and just white from the kaboom white wallpaper = maybe our next learning log?
+* Try make the menu button so that if you press on the button it will take you to the game?
+
+But right now I'm just looking at what my peers and my part B teammates are doing since some aren't done but my partner finished her part of her code, when the time comes and she is stuck with her codes I can help her and tinker. But for right now there is none unless my partner need help or need me to do.
+* I think I can try adding p5js to my kaboom, since we are learning that in class and could be possible for it to work = I'm not sure as is not part my tools but I will ask my partner if not Mr Muller
+* Asking question to my teammate if they are struggling for since we are learning p5js
+
+This is the code of my progress so far, since there isn't much I can do since my partner finished and didn't ask for anything else to be added.
+
+```js
+
+kaboom()
+
+            // load assets
+            loadSprite("duck", "sprites/duck.png")
+
+            // add my duck on my screen
+            const duck = add([
+	        // list of components
+	        sprite("duck"),
+	        pos(10, 20),
+	        area(),
+            body()
+        ])
+
+        loadSprite("froggie", "sprites/frog.jpg")
+
+            // add my duck on my screen
+            const froggie = add([
+	        // list of components
+	        sprite("froggie"),
+	        pos(80, 40),
+	        area(),
+            body()
+
+        ])
+
+        // setGravity(1600)
+        // // .jump() when "space" key is pressed
+        // onKeyPress("space", () => {
+   	 	//         duck.jump()
+	    //             })
+
+        onKeyDown("right", () => {
+   	 	        duck.move(100, 5)
+	                })
+
+        onKeyDown("left", () => {
+   	 	        duck.move(-100, -10)
+	                })
+
+        onKeyDown("up", () => {
+   	 	        duck.move(0, -100)
+	                })
+
+        onKeyDown("down", () => {
+   	 	        duck.move(0, 100)
+	                })
+
+        // keep track of score
+        let score = 0;
+        // display
+        const scoreLabel = add([
+            text(score),
+            pos(24, 24),
+            ]);
+
+        </script>
+    </body>
+</html>
+
+```
+#### Goals for next time??
+* Try not to procastinate too much ---> kept forgetting that I needed to learn my tools most of the time
+* Is ok to stress over things as it could be a glitch ---> I got pissed off and kept fixing it even tho is correct, but it said it was wrong. But I realized it was a glitch for some reason or I put the wrong code in
+* Try to slowly understand how to use the computer, as I always use my ipad ---> the longer I use it the more I understand some of the shortcut on the computer
+* Do a bit more research and a bit more tinker to expand my understanding ---> without much struggles so the codes doesn't stop working because of spelling and etc.
 
 <!--
 * Links you used today (websites, videos, etc)
