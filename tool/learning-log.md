@@ -465,6 +465,68 @@ kaboom()
 * Try to slowly understand how to use the computer, as I always use my ipad ---> the longer I use it the more I understand some of the shortcut on the computer
 * Do a bit more research and a bit more tinker to expand my understanding ---> without much struggles so the codes doesn't stop working because of spelling and etc.
 
+3/23/25
+
+[W3schools](https://www.w3schools.com/css/) was where I refresh my memory of how to do CSS again.Using the webiste from [Bootstrap](https://getbootstrap.com/docs/5.3/components/buttons/) to help me how to get started coding for buttons
+
+My notes this time for tinkering is using my knowledge from SEP10 of making webpage because my partner told me we needed someone to make the homepage.
+
+Today for my progress there isn't much as my partner kinda finished what she needed to do help finish our freedom project of doing "cat foods." From my last progress I was able to make the duck move how I wanted to be and added a sprite to make it as thing to slow down the player from getting more foods.
+But for my tinker this time is to make the menu in the project where you click it will take you to each of our game.
+* I think is important for me to do that as it can help benefit my partner ideas on what to add in the game
+* More drawing towards our project?
+
+Then during that time, my teammate was communicating more to my part B group as gather idea on what to add next to our project because we are kinda starting to add more deeper stuff to our game like adding more of the art we drew to the game and other stuff we wanted to add in our game.
+
+* Add drawing to our game = more cats to the Part B of our game where **Xue and Katee** is working
+* Add some background image in our *Cat food* so that it doesn't look plain and just white from the kaboom white wallpaper = maybe our next learning log?
+* Try make the menu button so that if you press on the button it will take you to the game?
+    * Which I am working on now since we finished what we needed to do --> make it look better and flexible
+
+But right now I'm just looking at what my peers and my part B teammates are doing since some aren't done but my partner finished her part of her code, when the time comes and she is stuck with her codes I can help her and tinker. But for right now there is none unless my partner need help or need me to do. Giving me more idea on what I should put on my homepage as there could be disagreement.
+* Asking question to my teammate if they are struggling for since we are learning p5js
+* Using my knowledge from last year when we were making web pages for our project and looking back on my notes
+
+This is the code that I made my menu for my teammates which is basically what we learned last year using bootstarp and our knowledge from CSS and HTML
+
+``` css
+/* CSS */
+            h1 {
+                margin: auto;
+                padding: 30px;
+                text-align: center;
+                font-size: 75px;
+                font-family: "Times New Roman"
+            }
+
+        </style>
+```
+That top of the code is for CSS only from what I got from tinkering to make my homepage look better with fonts.
+
+``` js
+        <title>Cat Collectors</title>
+    </head>
+    <body>
+        <!-- HTML -->
+         <h1>Cat Collectors</h1>
+         <div class="container">
+            <div class="row">
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary btn-lg">Part 1</button>
+                <button class="btn btn-primary btn-lg">Part 2</button>
+                <button class="btn btn-primary btn-lg">Gamble</button>
+              </div>
+            </div>
+          </div>
+```
+This top of my code is for the HTML of my homepage, which includes the button from the bootstrap.
+
+#### Goals for next time??
+* Try not to procastinate too much ---> kept forgetting that I needed to learn my tools most of the time
+* Is ok to stress over things as it could be a glitch ---> I got pissed off and kept fixing it even tho is correct, but it said it was wrong. But I realized it was a glitch for some reason or I put the wrong code in
+* Try to slowly understand how to use the computer, as I always use my ipad ---> the longer I use it the more I understand some of the shortcut on the computer
+* Do a bit more research and a bit more tinker to expand my understanding ---> without much struggles so the codes doesn't stop working because of spelling and etc.
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
