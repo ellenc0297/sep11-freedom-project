@@ -37,7 +37,7 @@ Since we are done with our project and what we needed for our project, I decided
 
         </style>
 ```
-This was my code for the CSS part of the my code for creating the menu
+This was my code for the CSS part of the my code for creating the menu, to be more organized
 ``` js
   <title>Cat Collectors</title>
 </head>
@@ -60,7 +60,7 @@ This was my code for the CSS part of the my code for creating the menu
         <script src="kaboom.js"></script>
 ```
 
-This was my code for the HTML part of the my code for creating the menu, while creating this menu part of the game I had to wait for approval from my groupmate since they will be using it and it will be presented to everyone.
+This was my code for the HTML part of the my codes plus the kaboom for our part of the game into the menu, while creating this menu part of the game I had to wait for approval from my groupmate since they will be using it and it will be presented to everyone.
 
 ### How I finished my MVP?
 During the spring break, we wanted to meet up so we can communicate better because it will be harder to see through screen, while being on call with everyone. From Monday, 14th of April we were able to make all of our requirement expect for the merge part of our MVP
