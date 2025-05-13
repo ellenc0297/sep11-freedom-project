@@ -1,10 +1,10 @@
 # Presentation Plan
 
 ## Hook
-* 
+* Have any of you guys play the snake game before? Well, our game will be similar to that. --> audience making connection to our game :cat-nod:
 
 ## Product
-* 
+* throw a snake into the crowd
 
 ## Process
 * 
