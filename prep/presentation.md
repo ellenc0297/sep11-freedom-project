@@ -4,13 +4,17 @@
 * Have any of you guys play the snake game before? Well, our game will be similar to that. --> audience making connection to our game :cat-nod:
 
 ## Product
-* throw a snake into the crowd
+* Showing an demonstration of the code --> so they understand how the function of the game work
+ * Yellkey link it for people and see at the end?
+ * Showing a gif of the game?
 
 ## Process
-* 
+* Showing the code snippet of both the code of the game (a little of it) and the same goes for the menu
 
 ## Conclusion
-* 
+* Putting some takeaway and challenges?
+ * Have a note remember what you need to add, espically homework wise
+ * Asking for help when needed due to how I struggle a lot when it come to understanding coding
 
 <!-- EXAMPLE
 
